@@ -8,7 +8,7 @@ what_time_is_it = "Lab time"
 what_time_is_it.upcase
 class Dog
     def name=(jina)
-      @this_dogs_name = jina
+      @this_dogs_name = jin
     end
    
     def name
