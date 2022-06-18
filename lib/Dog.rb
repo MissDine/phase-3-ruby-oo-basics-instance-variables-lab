@@ -7,11 +7,19 @@
 what_time_is_it = "Lab time"
 what_time_is_it.upcase
 class Dog
-    def name=(jina)
-      @this_dogs_name = jina
-    end
-   
-    def name
-      @this_dogs_name
-    end
+  # setter method
+  def name=(value)
+    @name = value
+  end
+
+  # getter method
+  def name
+    # access the data from the @name instance variable and return it
+    @name
+  end
 end
+
+odie = Dog.new
+odie.name = "Odie"
+
+puts odie.name
